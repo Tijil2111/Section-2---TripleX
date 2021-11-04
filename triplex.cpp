@@ -10,21 +10,23 @@ int main()
 
 
     // Declaring variables 
-    const int a = 4;
-    const int b = 5;
-    const int c = 6;
+    const int CodeA = 4;
+    const int CodeB = 5;
+    const int CodeC = 6;
     
 
-    const int sum = a+b+c;
-    const int product = a*b*c;
+    const int CodeSum = CodeA+CodeB+CodeC;
+    const int CodeProduct = CodeA*CodeB*CodeC;
 
 
 
     // Printing sum and product in console 
     std::cout << std::endl;
-    std::cout << sum;
-    std::cout << std::endl;
-    std::cout << product;
+    std::cout << " -- There are three number in the code" << std::endl;
+    std::cout << " -- The code adds up to -> " << CodeSum << std::endl;
+    std::cout << " -- The code multiplies up to -> "<<CodeProduct;
+
+    int PlayerGuess;
 
     return 0;
 }
